@@ -70,3 +70,17 @@ margin-top: 35px;    background-image: url('./IMG/showcase.jpg');
 .shocase a:hover{
     opacity: 0.9;
 }
+.main-home-section{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.h-cards img{
+    width: 100%;   
+}
+.h-cards a{
+    color: rgb(106, 106, 172);
+    font-weight: bold;
+    text-transform: uppercase;
+}
