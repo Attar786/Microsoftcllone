@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #fff;
     color: rgba(31, 30, 30, 0.872);
 }
@@ -35,7 +35,7 @@ a{
 }
 a:hover{
     border-bottom: 2px solid black;
-    /* transition: ease-in(1sec); */
+    transition: ease-in(1sec);
 
 }
 ul{
@@ -144,4 +144,58 @@ width: 50%;
 .bottom-showcase button:hover{
     opacity: 0.8;
     cursor:  pointer;
+}
+
+
+.icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer{
+    background: #f2f2f2;
+    color: #616161;
+}
+
+.innerlinks{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0 auto;
+    align-items:center;
+    justify-content: center;
+
+}
+/* .innerlinks ul{
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* Response design */
+
+@media (max-width:700px) {
+/* .innerlinks{
+    grid-template-columns: repeat(2,1fr);
+} */
+.main-home-section{
+    grid-template-columns: repeat(2, 1fr);
+    
+
+}
+/* .innerlinks ul{
+    grid-template-columns: repeat(2,1fr);
+
+} */
+.bottom-showcase p{
+display:none;
+} 
+.bottom-showcase{
+    background: url(./IMG/Highlight-Bing-AI-Open-Preview_VP4-1399x600.webp) no-repeat center;
+    width: 50%;
+    height: 20vh;
+    padding: 5rem;
+    }
 }
